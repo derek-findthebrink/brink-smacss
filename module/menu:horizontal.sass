@@ -1,0 +1,27 @@
+.menu
+	width: 100%
+	font-weight: bold
+	position: relative
+	ul
+		margin: 0 auto 0 auto
+		padding: 0
+		width: 100%
+		text-align: justify
+		li
+			position: relative
+			display: inline-block
+			vertical-align: top
+			width: 7em
+			list-style-type: none
+		ul
+			position: absolute
+			top: 1em
+			left: 0
+			display: none
+			padding: 0
+			margin: 0
+			list-style-type: none
+			li 
+				padding: 0.1em
+	li:hover > ul
+		display: block

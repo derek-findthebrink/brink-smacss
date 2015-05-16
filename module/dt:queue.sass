@@ -1,0 +1,12 @@
+.queue
+	overflow: auto
+	.task
+		margin: 0 1em 0 0
+		float: left
+		@include square(5em)
+	.task[data-time='short']
+		background-color: green	
+	.task[data-time='medium']
+		background-color: yellow
+	.task[data-time='long']
+		background-color: red
