@@ -1,0 +1,16 @@
+// main purpose - place image at top, allow text to be centered within
+.top-background-image
+	height: $module-topImage-height
+	width: 100%
+	background-size: 100%
+	text-align: center
+	.top-background-image-centered
+		display: inline-block
+		vertical-align: middle
+
+.top-background-image:before
+	content: ''
+	display: inline-block
+	height: 100%
+	vertical-align: middle
+	margin-right: -0.25em

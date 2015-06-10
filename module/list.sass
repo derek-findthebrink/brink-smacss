@@ -2,19 +2,20 @@ ul.list
 	padding: 0
 	li 
 		list-style-type: none
-		border-top: 2px solid $blue-3
-		border-radius: 3px
-		background-color: $blue-4
+		color: $module-list-li-color
+		border-top: $module-list-li-border
+		border-radius: $module-list-li-borderRadius
+		background-color: $module-list-li-backgroundColor
 	li:last-child
-		border-bottom: 2px solid $blue-3
+		border-bottom: $module-list-li-border
 		margin-bottom: 1em
 	li.list-header
 		font-weight: bold
 	li:hover
-		background-color: $blue-2
-		color: $blue-4
+		background-color: $module-list-li-backgroundColorHover
+		color: $module-list-li-colorHover
 	li.complete
-		background-color: grey
+		background-color: $module-list-li-classComplete-backgroundColor
 
 .menu
 	span
