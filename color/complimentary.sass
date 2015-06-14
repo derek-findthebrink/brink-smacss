@@ -1,0 +1,20 @@
+
+@mixin generate-monotone-colors($class, $color, $ratio)
+	$ratio-s: $ratio
+	$ratio-l: 2 * $ratio
+	.color-monotone-#{$class}-l
+		background-color: mix(white, $color, $ratio-l)
+	.color-monotone-#{$class}-ml  
+		background-color: mix(white, $color, $ratio-s)
+	.color-monotone-#{$class}-m 
+		background-color: $color
+	.color-monotone-#{$class}-md 
+		background-color: mix(black, $color, $ratio-s)
+	.color-monotone-#{$class}-d 
+		background-color: mix(black, $color, $ratio-l)
+
+.bt-color-test
+	height: 2em
+	width: 2em
+	display: inline-block
+	position: relative

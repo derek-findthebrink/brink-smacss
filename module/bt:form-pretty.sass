@@ -1,0 +1,21 @@
+.bt-form-pretty
+	background-color: $color-quaternary
+	color: $color-secondary
+	padding: 1em
+	border-radius: 5px
+	border: 3px solid $color-secondary
+	label
+		@include styles-header
+	input
+		@include styles-paragraph
+	label
+		vertical-align: top
+	input, textarea
+		background-color: $color-primary
+		padding: 0.5em
+		border-radius: 5px
+		border: 3px solid mix($color-secondary, white, 70%)
+	input:hover, textarea:hover
+		background-color: mix($color-primary, black, 90%)
+	input[type='submit']
+		border-color: $color-secondary
