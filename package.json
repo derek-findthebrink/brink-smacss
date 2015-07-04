@@ -1,0 +1,23 @@
+{
+  "name": "brink-smacss",
+  "version": "1.0.0",
+  "description": "smacss implementation by brink technology co.",
+  "main": "index.css",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/findthebrink/brink-smacss.git"
+  },
+  "keywords": [
+    "smacss",
+    "css",
+    "modular"
+  ],
+  "author": "Derek Moore (repos@findthebrink.com)",
+  "license": "MIT"
+}
