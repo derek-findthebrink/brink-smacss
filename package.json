@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "kss": "sass index.sass index.css && kss-node -t ./kss/styleguide-template/ --css ../index.css --source .",
-    "kss:watch": "watch 'npm run kss' vars base color helpers kss layout module state tests"
+    "kss": "sass vars/index.sass dist/index.css && kss-node -t ./kss/styleguide-template/ --css ../index.css --source . --homepage kss/styleguide.md --destination dist/styleguide",
+    "kss:watch": "watch 'npm run kss' base color helpers kss layout module state tests vars"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,9 @@
   "author": "Derek Moore (repos@findthebrink.com)",
   "license": "MIT",
   "dependencies": {
-    "normalize.css": "^3.0.3",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
     "watch": "^0.16.0"
   }
 }

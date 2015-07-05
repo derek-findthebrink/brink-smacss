@@ -19,3 +19,10 @@ as this is a SMACSS implementation, it follows some general rules with a couple 
 ### Modules
 ### State
 ### Theme
+
+## Project Structure
+the project structure at this point is a bit crazy, but it's slowly being pared down.
+
+## Goals
+- user links to single css stylesheet in dist folder
+- all other files listed in sources folder
