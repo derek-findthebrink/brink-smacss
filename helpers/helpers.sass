@@ -17,12 +17,28 @@ footer.fixed, .footer.fixed
 
 // kss helpers
 //
-// kss helpers
+// .kss-display-rect	- creates a rectangle using Mixin.rectangle to be used in kss displays
 //
 // Styleguide Helpers.kss-helpers
 
 .kss-display-rect
 	@include rectangle(100%, 3em)
+
+
+// general helpers
+//
+// general-use helpers to be used on the site
+//
+// .text-align-left 	- aligns text left
+// .text-align-center 	- aligns text center
+// .text-align-right 	- aligns text right
+// .display-inline 	- coerces inline display for element
+// .hidden 	- coerces element to not be rendered
+// .float-R 	- floats element right
+// .float-L 	- floats element left
+// .content-inset	- sets element at 80% and gives automatic margins on each side
+//
+// Styleguide Helpers.general-helpers
 
 .text-align-left
 	text-align: left
@@ -41,6 +57,6 @@ footer.fixed, .footer.fixed
 .float-L
 	float: left
 
-div.content-inset
+.content-inset
 	width: 80%
 	margin: 0 auto
