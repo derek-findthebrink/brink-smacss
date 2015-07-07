@@ -1,0 +1,54 @@
+// single flow
+//
+// single page website that flows naturally top to bottom
+// apply different styles to body
+//
+// .l-single-flow		- as above
+// .l-sidebar			- nav floats on left as sidebar
+//
+// Markup: markup/single-flow.html
+// 
+// Styleguide Layout.site-layouts.single-flow
+
+.l-single-flow
+	background-color: white 
+	header
+		width: 100%
+		background-color: $color-primary
+		clear: both
+	nav
+		background-color: $color-quaternary
+		width: 100%
+		clear: both
+	main
+		background-color: $color-secondary
+		width: 100%
+		clear: both
+	footer
+		background-color: $color-primary
+		width: 100%
+		clear: both
+
+.l-sidebar
+	overflow: auto
+	clear: both
+	header
+		width: 100%
+		background-color: $color-primary
+		clear: both
+	nav
+		display: inline-block
+		background-color: $color-quaternary
+		width: 30%
+		float: left
+	main
+		display: inline-block
+		background-color: $color-secondary
+		width: 70%
+		float: right
+		clear: none
+		margin: 0
+	footer
+		background-color: $color-primary
+		width: 100%
+		clear: both

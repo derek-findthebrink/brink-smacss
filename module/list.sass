@@ -1,21 +1,37 @@
-ul.list
+// list
+//
+// applies styles to a set of list items
+//
+// .pretty	- pretty list
+// 
+// Markup: markup/list:pretty.html
+// 
+//
+// Styleguide Modules.list
+
+.pretty
 	padding: 0
 	li 
+		padding: 0.2em
+		background-color: $color-primary
+		color: $color-primary-text
+		border-top: 1px solid $color-secondary
+		border-radius: $border-radius
 		list-style-type: none
-		color: $module-list-li-color
-		border-top: $module-list-li-border
-		border-radius: $module-list-li-borderRadius
-		background-color: $module-list-li-backgroundColor
 	li:last-child
-		border-bottom: $module-list-li-border
+		border-bottom: 1px solid $color-secondary
 		margin-bottom: 1em
 	li.list-header
 		font-weight: bold
 	li:hover
-		background-color: $module-list-li-backgroundColorHover
-		color: $module-list-li-colorHover
+		background-color: $color-quaternary
+		color: $color-quaternary-text
 	li.complete
-		background-color: $module-list-li-classComplete-backgroundColor
+		background-color: mix($color-primary, black, 70%)
+		color: $color-primary-text
+		&:hover
+			background-color: white 
+			color: $color-primary
 
 .menu
 	span

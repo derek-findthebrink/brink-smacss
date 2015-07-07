@@ -1,0 +1,17 @@
+// three grid
+//
+// creates a grid of three columns within an element
+//
+// .	- 
+// 
+// Markup: markup/section-3-grid.html
+// 
+//
+// Styleguide Layout.section-3-grid
+
+.grid-3
+	@include outer-container()
+	.part
+		padding: 0.5em
+		@include span-columns(4 of 12)
+		@include omega(3n)

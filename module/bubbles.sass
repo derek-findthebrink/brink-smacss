@@ -1,22 +1,34 @@
-// Modules
-//
-// Code snippets that come with the brink tech SMACSS package
-//
-// Styleguide Modules
-
 // bubbles
 //
 // creates independent content sections that hover above the page in a sort of bubble
 // 
-// Markup:
-// <div class='bubbles' style='width: 30em;'><div class='bubble rounded-corners drop-shadow'></div><div class='bubble rounded-corners drop-shadow'></div><div class='bubble rounded-corners drop-shadow'></div><div class='bubble rounded-corners drop-shadow'></div></div>
+// .bubble-1 	- style 1
+// .bubble-round	- round bubbles
+//
+// Markup: markup/bubbles.html
 //
 // Styleguide Modules.bubbles
 
 .bubbles
-	width: 99%
+	width: 80%
 	margin: 0 auto 0 auto
-	overflow: visible
+	overflow: auto
+	clear: both
+	text-align: center
 .bubble
-	@include square(10em)
 	margin: 1em
+	padding: 1em
+	float: left
+	@include dropShadow()
+	border-radius: $border-radius
+	color: $font-color
+
+.bubbles.bubble-1
+	.bubble
+		background: $color-secondary
+		color: $color-quaternary-text-light
+
+.bubbles.bubble-round
+	.bubble 
+		border-radius: 50%
+		padding: 1.5em

@@ -1,0 +1,724 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"color-primary"
+			],
+			[
+				"color-primary",
+				"color-primary-trans"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"bt-headGra",
+				"bt-headGraphic-align"
+			],
+			[
+				"d",
+				"d	display"
+			],
+			[
+				"bt-custo",
+				"bt-customer-details"
+			],
+			[
+				"tasks",
+				"tasksView"
+			],
+			[
+				"color-primar",
+				"color-primary-text"
+			],
+			[
+				"con",
+				"content-inset"
+			],
+			[
+				"color-p",
+				"color-primary-trans"
+			],
+			[
+				"transparen",
+				"transparent-ratio"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"no-",
+				"no-repeat"
+			],
+			[
+				"trans-green",
+				"trans-green-1"
+			],
+			[
+				"green",
+				"green-1"
+			],
+			[
+				"yellow",
+				"yellow-1"
+			],
+			[
+				"trans",
+				"trans-green-1"
+			],
+			[
+				"blue",
+				"blue-2"
+			],
+			[
+				"stylegi",
+				"styleguide-template"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"transp",
+				"transparent-primary-1"
+			],
+			[
+				"primary",
+				"primary-1"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"inti",
+				"initialize"
+			],
+			[
+				"grunt",
+				"grunt_once"
+			],
+			[
+				"blue-",
+				"blue-3"
+			],
+			[
+				"textCol",
+				"textColor-1"
+			],
+			[
+				"text",
+				"textColor-3"
+			],
+			[
+				"textC",
+				"textColor-1"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"menu",
+				"menu-section"
+			],
+			[
+				"me",
+				"menu-section"
+			],
+			[
+				"get",
+				"getQuestionsList"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"html",
+				"htmlparser"
+			],
+			[
+				"window",
+				"window"
+			],
+			[
+				"send",
+				"sendToDownloader"
+			],
+			[
+				"controller",
+				"controllerOptions"
+			],
+			[
+				"hand",
+				"handString"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"create",
+				"createPrivateFolder"
+			],
+			[
+				"removeC",
+				"removeColor"
+			],
+			[
+				"time",
+				"timeRequired"
+			],
+			[
+				"data-dt",
+				"data-dt-key"
+			],
+			[
+				"attribut",
+				"attributesString"
+			],
+			[
+				"jquery",
+				"jquerymobile"
+			],
+			[
+				"child",
+				"child_added"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "vars/vars.sass",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vars/functions.sass",
+			"settings":
+			{
+				"buffer_size": 2111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vars/index.sass",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 264.0,
+		"last_filter": "prv",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jade-bstc3"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 438.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/mnt/Developer/brink-smacss",
+		"/mnt/Developer/brink-smacss/lib",
+		"/mnt/Developer/brink-smacss/lib/neat",
+		"/mnt/Developer/brink-smacss/vars"
+	],
+	"file_history":
+	[
+		"/mnt/Developer/htdocs/learning/compass/config.rb",
+		"/mnt/Developer/brink-smacss/base/nav.sass",
+		"/mnt/Developer/brink-smacss/module/form-pretty.sass",
+		"/mnt/Developer/brink-smacss/module/bubbles.sass",
+		"/mnt/Developer/brink-smacss/base/fonts.sass",
+		"/mnt/Developer/brink-smacss/devServer.js",
+		"/mnt/Developer/brink-smacss/vars/functions.sass",
+		"/mnt/Developer/brink-smacss/kss/styleguide-template/index.html",
+		"/mnt/Developer/brink-smacss/dist/script.js",
+		"/mnt/Developer/brink-smacss/color/color.sass",
+		"/mnt/Developer/brink-smacss/base/form.sass",
+		"/mnt/Developer/brink-smacss/module/nav.sass",
+		"/mnt/Developer/brink-smacss/module/top-background-image.sass",
+		"/mnt/Developer/brink-smacss/module/markup/top-image.jade",
+		"/mnt/Developer/brink-smacss/module/text:headline.sass",
+		"/mnt/Developer/brink-smacss/vars/index.sass",
+		"/mnt/Developer/brink-smacss/module/markup/text:headline.html",
+		"/mnt/Developer/brink-smacss/module/sidebar.sass",
+		"/mnt/Developer/brink-smacss/module/markup/sidebar.html",
+		"/mnt/Developer/brink-smacss/module/rounded-corners.sass",
+		"/mnt/Developer/brink-smacss/module/markup/rounded-corners.html",
+		"/mnt/Developer/brink-smacss/module/list.sass",
+		"/mnt/Developer/brink-smacss/module/hover-show.sass",
+		"/mnt/Developer/brink-smacss/module/markup/hover-show.html",
+		"/mnt/Developer/brink-smacss/kss/styleguide.md",
+		"/mnt/Developer/brink-smacss/module/menu.sass",
+		"/mnt/Developer/brink-smacss/module/nav:horizontal.sass",
+		"/mnt/Developer/brink-smacss/module/markup/menu.html",
+		"/mnt/Developer/brink-smacss/module/nav:justified.sass",
+		"/mnt/Developer/brink-smacss/module/menu:horizontal.sass",
+		"/mnt/Developer/brink-smacss/module/markup/bubbles.html",
+		"/mnt/Developer/brink-smacss/module/drop-shadows.sass",
+		"/mnt/Developer/brink-smacss/module/list:pinboard.sass",
+		"/mnt/Developer/brink-smacss/module/list:hover-show.sass",
+		"/mnt/Developer/brink-smacss/kss/markup/color.html",
+		"/mnt/Developer/brink-smacss/color/complimentary.sass",
+		"/mnt/Developer/brink-smacss/module/headGraphic.sass",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/complimentary.jade",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/color.jade",
+		"/mnt/Developer/brink-smacss/kss/markup/colors.html",
+		"/mnt/Developer/brink-smacss/kss/declaration.sass",
+		"/mnt/Developer/brink-smacss/layout/header:nav-inside.sass",
+		"/mnt/Developer/brink-smacss/vars/vars.sass",
+		"/mnt/Developer/brink-smacss/layout/form.sass",
+		"/mnt/Developer/brink-smacss/module/queue.sass",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/hover-show.jade",
+		"/mnt/Developer/brink-smacss/kss/markup/hover-show.html",
+		"/mnt/Developer/brink-smacss/kss/markup/list:pretty.html",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/list:pretty.jade",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/header-nav:inside.jade",
+		"/mnt/Developer/brink-smacss/kss/markup/header-nav:inside.html",
+		"/mnt/Developer/brink-smacss/module/header:nav-inside.sass",
+		"/mnt/Developer/brink-smacss/kss/markup/site-layout.html",
+		"/mnt/Developer/brink-smacss/module/bt:headGraphic.sass",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/headGraphic.jade",
+		"/home/derek/.config/sublime-text-3/Packages/User/kss.sublime-snippet",
+		"/mnt/Developer/brink-smacss/module/bt-tests/color.sass",
+		"/mnt/Developer/brink-smacss/layout/nav-ul.sass",
+		"/mnt/Developer/brink-smacss/layout/sites/single-flow.sass",
+		"/mnt/Developer/brink-smacss/package.json",
+		"/mnt/Developer/brink-smacss/kss/markup/jade/site-layout.jade",
+		"/mnt/Developer/brink-smacss/base/main.sass",
+		"/mnt/Developer/brink-smacss/vars/color.sass",
+		"/mnt/Developer/brink-smacss/helpers/helpers.sass",
+		"/mnt/Developer/brink-smacss/base/bootstrap-overrides.sass",
+		"/mnt/Developer/brink-smacss/module/bt:form-pretty.sass",
+		"/mnt/Developer/brink-smacss/module/form:two-column.sass",
+		"/mnt/Developer/htdocs/brink/dev/sass/index.sass",
+		"/mnt/Developer/htdocs/brink/dev/sass/theme/top-image.sass",
+		"/mnt/Developer/htdocs/brink/node_modules/brink-smacss/index.sass",
+		"/mnt/Developer/htdocs/brink/package.json",
+		"/mnt/Developer/brink-smacss/.gitignore",
+		"/mnt/Developer/brink-smacss/base/sidebar.sass",
+		"/mnt/Developer/brink-smacss/base/section.sass",
+		"/mnt/Developer/brink-smacss/base/html.sass",
+		"/mnt/Developer/brink-smacss/base/header.sass",
+		"/mnt/Developer/brink-smacss/base/footer.sass",
+		"/mnt/Developer/brink-smacss/styleguide.md",
+		"/mnt/Developer/brink-smacss/base/article.sass",
+		"/mnt/Developer/brink-smacss/base/body.sass",
+		"/mnt/Developer/brink-smacss/index.sass",
+		"/mnt/Developer/brink-smacss/layout/article.sass",
+		"/mnt/Developer/brink-smacss/color.sass",
+		"/mnt/Developer/brink-smacss/layout/body.sass",
+		"/mnt/Developer/brink-smacss/styleguide/public/index.css",
+		"/mnt/Developer/brink-smacss/layout/general.sass",
+		"/mnt/Developer/brink-smacss/layout/html.sass",
+		"/mnt/Developer/htdocs/daytimer6/package.json",
+		"/mnt/Developer/htdocs/daytimer7/package.json",
+		"/mnt/Developer/htdocs/brink/dev/jade/includes/templates.jade",
+		"/mnt/Developer/htdocs/brink/dev/coffee/lib/svg.coffee",
+		"/mnt/Developer/htdocs/brink/dev/assets/brink-nutsAndBolts.svg",
+		"/mnt/Developer/htdocs/brink/dev/sass/theme/svg.sass",
+		"/mnt/Developer/htdocs/brink/dev/jade/pages/content/package.jade",
+		"/mnt/Developer/htdocs/brink/dev/jade/includes/brand.jade",
+		"/home/derek/.config/fish/config.fish",
+		"/mnt/Developer/htdocs/brink/devServer.js",
+		"/media/derek/saucy-sd1/New Text Document.txt",
+		"/etc/rc.local",
+		"/home/derek/bitsync/Developer/htdocs/brink/.gitignore",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/assets/brink-package.svg",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/theme/svg.sass",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/includes/templates.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/coffee/lib/svg.coffee",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/layout.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/includes/scripts.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/theme/section.sass",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/vars.sass",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/theme/text.sass",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/coffee/lib/ui.coffee",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/pages/content/package.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/assets/brink-swirl.svg",
+		"/home/derek/bitsync/Developer/htdocs/brink/dist/home.html",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/index.sass",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/working/brink-svg.css",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/working/brink-package.svg",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/includes/color.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/jade/includes/head.jade",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/theme/structural.sass",
+		"/home/derek/Programs/BitTorrent-Sync_x64/README",
+		"/home/derek/bitsync/Developer/htdocs/brink/dev/sass/theme/list:hover-show.sass",
+		"/home/derek/Programs/BitTorrent-Sync_x64/.sync/.SyncUser1434832915/.sync/IgnoreList",
+		"/media/derek/windows7/Users/derek/Developer/freelance/gravit-e/oneocean/notes.txt",
+		"/media/derek/windows7/Users/derek/Developer/freelance/gravit-e/oneocean/jade/content.jade",
+		"/media/derek/windows7/Users/derek/Developer/freelance/gravit-e/oneocean/jade/content.html",
+		"/media/derek/windows7/Users/derek/Developer/freelance/grativ-e/oneocean/jade/style.css",
+		"/media/derek/windows7/Users/derek/Developer/freelance/grativ-e/oneocean/jade/style.sass",
+		"/media/derek/windows7/Users/derek/Developer/freelance/grativ-e/oneocean/jade/template.jade"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"../kss/markup",
+			"$c3",
+			"Styleguide Modules",
+			"Styleguide Color",
+			"layout",
+			".",
+			"vars",
+			".offers .offer:nth-child(2) .oo-headGraphic .oo-hg-text{\n  color: black !important;\n}",
+			"secondary",
+			"footer",
+			"headings",
+			"forms",
+			"headings",
+			"@",
+			"color: mix($blue-1, white, 10%)",
+			"//\n",
+			"@",
+			"@link",
+			"5",
+			"ui.popu",
+			"5",
+			"2",
+			"6",
+			"1",
+			"4",
+			"6",
+			"4em",
+			";",
+			"@",
+			"//",
+			":hover",
+			"base",
+			"vectorToString",
+			"|",
+			"appTypes.ListItem",
+			"appTypes",
+			"setTaskColor",
+			"login",
+			".ui-persist-state",
+			"folder",
+			"options",
+			"urlencoded",
+			"bash_",
+			"alias"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"base",
+			"..",
+			"tertiary",
+			"headings",
+			"header",
+			"headings",
+			"forms",
+			"article",
+			"section",
+			"footer",
+			"main",
+			"footer",
+			"nav",
+			"$",
+			"6",
+			"1",
+			"5",
+			"2",
+			"3",
+			"8",
+			"4",
+			"",
+			"$",
+			"",
+			"theme",
+			"toString",
+			"",
+			"register",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "vars/vars.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "vars/functions.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vars/index.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "brink-smacss.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

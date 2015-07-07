@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]>            <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IEMobile 7]>          <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>  <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>                <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>brink. | Styleguide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="../index.css">
+
+</head>
+<body id="kss-node">
+
+<div class="kss-sidebar kss-style">
+  <header class="kss-header">
+    <h1 class="kss-doc-title">brink-SMACSS<br>Style Guide</h1>
+  </header>
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a href="./index.html">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-base.html">
+          <span class="kss-nav__ref">1</span
+          ><span class="kss-nav__name">Base</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-colors.html">
+          <span class="kss-nav__ref">2</span
+          ><span class="kss-nav__name">Colors</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-fonts.html">
+          <span class="kss-nav__ref">3</span
+          ><span class="kss-nav__name">Fonts</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-helpers.html">
+          <span class="kss-nav__ref">4</span
+          ><span class="kss-nav__name">Helpers</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-layout.html">
+          <span class="kss-nav__ref">5</span
+          ><span class="kss-nav__name">Layout</span>
+        </a>
+        <ul class="kss-nav__menu-child">
+            <li class="kss-nav__menu-item">
+              <a href="section-layout.html#kssref-layout-header-nav:inside">
+                <span class="kss-nav__ref">5.1</span
+                ><span class="kss-nav__name">nav: inside header</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-layout.html#kssref-layout-section-3-grid">
+                <span class="kss-nav__ref">5.2</span
+                ><span class="kss-nav__name">three grid</span>
+              </a>
+            </li>
+        </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-modules.html">
+          <span class="kss-nav__ref">6</span
+          ><span class="kss-nav__name">Modules</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<article role="main" class="kss-main">
+
+      <div     id="kssref-layout" class="kss-section kss-section--depth-1">
+
+    <div class="kss-style">
+      <h1 class="kss-title kss-title--level-1">
+        <a class="kss-title__permalink" href="#kssref-layout">
+          <span class="kss-title__ref">5</span
+          >Layout
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h1>
+
+
+      <div class="kss-description">
+        <p>defines layout styles</p>
+
+      </div>
+    </div>
+
+
+      </div>
+      <section id="kssref-layout-header-nav:inside" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-layout-header-nav:inside">
+          <span class="kss-title__ref">5.1</span
+          >nav: inside header
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>places the nav inside the header</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          
+<header class="[modifier class]">
+  <h1>header</h1>
+  <nav>
+    <ul>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+    </ul>
+  </nav>
+</header>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .l-nav-inside
+        </div>
+        <div class="kss-modifier__description kss-style">
+          places nav inside header (must already be inside header in markup)
+        </div>
+        <div class="kss-modifier__example">
+          
+<header class="l-nav-inside">
+  <h1>header</h1>
+  <nav>
+    <ul>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+      <li><a href="#">link</a></li>
+    </ul>
+  </nav>
+</header>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">
+&lt;header class=&quot;[modifier class]&quot;&gt;
+  &lt;h1&gt;header&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-layout-section-3-grid" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-layout-section-3-grid">
+          <span class="kss-title__ref">5.2</span
+          >three grid
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>creates a grid of three columns within an element</p>
+<p>.    -</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <section class='grid-3'>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+	<div class='part'>
+		<h3>I'm a part!</h3>
+		<p>I'm content for this part</p>
+	</div>
+</section>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;section class=&#x27;grid-3&#x27;&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&#x27;part&#x27;&gt;
+		&lt;h3&gt;I&#x27;m a part!&lt;/h3&gt;
+		&lt;p&gt;I&#x27;m content for this part&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-layout-site-layouts.single-flow" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-layout-site-layouts.single-flow">
+          <span class="kss-title__ref">5.3.1</span
+          >single flow
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>single page website that flows naturally top to bottom
+apply different styles to body</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          
+<div class="[modifier class]">
+  <header>
+    <h1>header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>lorem lipsum</p>
+  </main>
+  <footer>
+    <p>footer</p>
+  </footer>
+</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .l-single-flow
+        </div>
+        <div class="kss-modifier__description kss-style">
+          as above
+        </div>
+        <div class="kss-modifier__example">
+          
+<div class="l-single-flow">
+  <header>
+    <h1>header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>lorem lipsum</p>
+  </main>
+  <footer>
+    <p>footer</p>
+  </footer>
+</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .l-sidebar
+        </div>
+        <div class="kss-modifier__description kss-style">
+          nav floats on left as sidebar
+        </div>
+        <div class="kss-modifier__example">
+          
+<div class="l-sidebar">
+  <header>
+    <h1>header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+      <li><a>a link</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>lorem lipsum</p>
+  </main>
+  <footer>
+    <p>footer</p>
+  </footer>
+</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">
+&lt;div class=&quot;[modifier class]&quot;&gt;
+  &lt;header&gt;
+    &lt;h1&gt;header&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;nav&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a&gt;a link&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a&gt;a link&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a&gt;a link&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+  &lt;main&gt;
+    &lt;p&gt;lorem lipsum&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;p&gt;footer&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+</article>
+
+<!-- SCRIPTS -->
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script>
+  prettyPrint();
+</script>
+
+
+<script src="//use.typekit.net/rsz1its.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+
+<!-- Automatically generated using <a href="https://github.com/kss-node/kss-node">kss-node</a>. -->
+</body>
+</html>

@@ -1,10 +1,16 @@
 // sass functions
 
+// style
 // styles
-@mixin styles-header
-	font-family: $header-font
-@mixin styles-paragraph
-	font-family: $paragraph-font
+@mixin element-styles
+	@each $el in $element-list
+		#{$el}
+			@content
+
+@mixin header-styles
+	@for $i from 1 through 6
+		h#{$i}
+			@content
 
 // color
 @mixin accents ($num)
@@ -29,6 +35,10 @@
 @mixin font-size($size)
 	font-size: $size
 	font-size: calculateRem($size)
+
+// drop shadow
+@mixin dropShadow()
+	box-shadow: 3px 3px 20px $dropShadow-color
 
 // layout
 // breakpoints

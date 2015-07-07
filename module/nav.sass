@@ -1,0 +1,49 @@
+// nav
+//
+// different styles of nav
+// 
+// .nav-horizontal	- a horizontal nav
+// .nav-justified	- a horizontal and justified nav
+// .nav1	- different style
+//
+// Markup:
+// <nav class='{{modifier_class}}'>
+// <ul>
+// <li><a href='#'>herp</a></li>
+// <li><a href='#'>herp</a></li>
+// <li><a href='#'>herp</a></li>
+// </ul>
+// </nav>
+//
+// Styleguide Modules.nav:horizontal
+
+.nav-horizontal
+	position: relative
+	ul
+		margin: 0
+		padding: 0
+		li
+			padding-right: 1em
+			display: inline-block
+.nav1
+	li 
+		border: 1px solid $color-primary
+		border-radius: 3px
+		background-color: $color-secondary
+		color: $color-quaternary
+
+
+// SO FAR NOT WORKING ON BRINK-TEMPLATE
+nav.nav-justified, .nav.nav-justified
+	ul
+		font-size: 0
+		text-align: justify
+		li 
+			display: inline-block
+			font-size: 1rem
+			margin: 0 auto
+	ul:after
+		content: ''
+		width: 100%
+		display: inline-block
+		text-align: justify

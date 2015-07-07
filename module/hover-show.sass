@@ -1,0 +1,17 @@
+// hover-show
+//
+// adds the hover show effect
+// when the mouse hovers over the parent element, all children elements are shown
+//
+// .hover-show	- adds effect to element and it's children
+// 
+// Markup: markup/hover-show.html
+// 
+// Styleguide Modules.hover-show
+
+.hover-show > *
+	display: none
+.hover-show:hover
+	cursor: pointer
+.hover-show:hover>*
+	display: block

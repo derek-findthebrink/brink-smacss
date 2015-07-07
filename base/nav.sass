@@ -4,17 +4,33 @@
 // - removes li list-style-type
 // - removes hover underline from links
 // - sets margins to 0 for h1, h2
-// - 
+// - removes ul styling from nav -> ul 
 //
+// Markup:
+// <nav>
+// <ul>
+// <li><a href="#">link</a></li>
+// <li><a href="#">link</a></li>
+// <li><a href="#">link</a></li>
+// </ul>
+// </nav>
+// 
 // Styleguide Base.nav
 
 nav, .nav
 	z-index: 100
-	li 
-		list-style-type: none
-	a 
-		text-decoration: none
-	a:hover
-		text-decoration: none
 	h1, h2
 		margin: 0
+	ul
+		margin: 0
+		padding: 0
+		list-style-type: none
+	li 
+		list-style-type: none
+	a
+		font-family: $font-headers
+		text-decoration: none
+		color: inherit
+	a:hover
+		text-decoration: none
+		color: inherit

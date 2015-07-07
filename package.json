@@ -26,6 +26,8 @@
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
+    "connect": "^3.4.0",
+    "serve-static": "^1.10.0",
     "watch": "^0.16.0"
   }
 }

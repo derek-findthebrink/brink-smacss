@@ -1,0 +1,41 @@
+// form
+//
+// form styles
+// 
+// .form-pretty 	- a pretty form
+// 
+// Markup:
+// <form class='{{modifier_class}}'>
+// 	<label>name</label><input type='text'></input>
+// 	<label>email</label><input type='email'></input>
+// 	<div class='label-placeholder'></div><input type='submit'></input>
+// </form>
+//
+// Styleguide Modules.form-pretty
+
+
+.form-pretty
+	padding: 1em 0 1em 0
+	//border: 3px solid $color-primary
+	border-radius: 5px
+	//background-color: $color-quaternary
+	color: $color-secondary
+	label
+		font-family: $font-headers
+	input, textarea
+		margin: 5px
+		padding: 0.5em
+		border-radius: 5px
+		border: 3px solid mix($color-secondary, white, 70%)
+		background-color: $color-primary
+		font-family: $font-content
+	input:hover, textarea:hover
+		background-color: mix($color-primary, black, 90%)
+	input[type='submit']
+		border-color: $color-secondary
+		background: $color-secondary
+		color: $color-primary
+		font-family: $font-headers
+		&:hover
+			background-color: mix(white, $color-primary, 70%)
+			color: $color-secondary

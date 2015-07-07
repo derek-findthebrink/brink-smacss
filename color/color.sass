@@ -1,0 +1,78 @@
+@import "palleton"
+
+// vars
+$transparent-ratio: 0.5
+
+// semantic colors
+$blue-1: $rgba-primary-0
+$blue-2: $rgba-primary-1
+$blue-3: $rgba-primary-2
+$blue-4: $rgba-primary-3
+$blue-5: $rgba-primary-4
+$transparent-white: rgba(white, $transparent-ratio)
+
+// MAKE MODIFICATIONS HERE
+$color-primary: $c2 // lightest blue
+$color-primary-text: mix($color-primary, black, 30%)
+$color-primary-text-light: mix($color-primary, white, 15%)
+$color-primary-trans: rgba($color-primary, $transparent-ratio)
+
+$color-secondary: $c1 // dark blue
+$color-secondary-text: mix($color-secondary, black, 30%)
+$color-secondary-text-light: mix($color-secondary, white, 15%)
+$color-secondary-trans: rgba($color-secondary, $transparent-ratio)
+
+$color-tertiary: $c4 // darker grey-blue
+$color-tertiary-text: mix($color-tertiary, black, 30%)
+$color-tertiary-text-light: mix($color-tertiary, white, 15%)
+$color-tertiary-trans: rgba($color-tertiary, $transparent-ratio)
+
+$color-quaternary: $c3 // darker grey-blue
+$color-quaternary-text: mix($color-quaternary, black, 30%)
+$color-quaternary-text-light: mix($color-quaternary, white, 15%)
+$color-quaternary-trans: rgba($color-quaternary, $transparent-ratio)
+
+// color set
+//
+// defines the color set of the website. Typically five are selected.
+//
+// .color-primary	- primary color
+// .color-secondary	- secondary color
+// .color-tertiary	- third color
+// .color-quaternary	- fourth color
+// .color-quinary	- fifth color
+// 
+// Markup: markup/color.html
+// 
+//
+// Styleguide Colors.set
+
+.color-primary
+	background-color: $color-primary
+	color: $color-primary-text
+	.light 
+		color: $color-primary-text-light
+	&.transparent
+		background-color: $color-primary-trans
+.color-secondary
+	background-color: $color-secondary 
+	color: $color-secondary-text
+	.light 
+		color: $color-secondary-text-light
+	&.transparent
+		background-color: $color-secondary-trans
+.color-tertiary
+	background-color: $color-tertiary 
+	color: $color-tertiary-text
+	.light 
+		color: $color-tertiary-text-light
+	&.transparent
+		background-color: $color-tertiary-trans
+.color-quaternary
+	background-color: $color-quaternary
+	color: $color-quaternary-text
+	.light 
+		color: $color-quaternary-text-light
+	&.transparent
+		background-color: $color-quaternary-trans
+
