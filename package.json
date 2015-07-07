@@ -1,6 +1,6 @@
 {
   "name": "brink-smacss",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "smacss implementation by brink technology co.",
   "main": "index.css",
   "directories": {
